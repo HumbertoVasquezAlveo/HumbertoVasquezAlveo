@@ -7,6 +7,29 @@
 <html>
 	<head>
 		<title>webchat</title>
+		<script>
+			function initFreshChat() {
+			  window.fcWidget.init({
+				token: "5194f5ed-fd2f-45df-8706-c34cb6770b1b",
+				host: "https://wchat.freshchat.com"
+			  });
+			}
+			function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+		  </script>
+        <!--Start of Tawk.to Script  
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5ec777e0c75cbf1769ee4ee0/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+		End of Tawk.to Script-->
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -27,22 +50,7 @@
 							<span class="image fill" data-position="center"><img src="images/ima3.jpg" alt="" /></span>
 						</div>
 					</section>
-					<section>
-						<footer>
-							<ul class="items">
-								<li>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</footer>
-					</section>
+
 
 				<!-- Copyright -->
 					<div class="copyright">&copy; Untitled. All rights reserved.</div>
